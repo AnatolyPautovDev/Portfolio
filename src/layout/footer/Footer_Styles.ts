@@ -52,6 +52,7 @@ const Author = styled.small`
         color: transparent;
         background-image: ${theme.colors.gradient};
         background-clip: text;
+        -webkit-background-clip: text;
     }
     @media ${theme.media.mobile} {
         padding-top: 15px;

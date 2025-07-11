@@ -63,6 +63,7 @@ const Name = styled.span`
     color: transparent;
     background-image: ${theme.colors.gradient};
     background-clip: text;
+    -webkit-background-clip: text;
 `
 
 export const S = {
